@@ -1,0 +1,11 @@
+@mixin d-flex($justlifycontent:space-between, $align:center) {
+    display: flex;
+    justify-content: $justlifycontent;
+    align-items: $align;
+}
+@mixin container ($maxWidth:1140px) {
+    max-width: $maxWidth;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}

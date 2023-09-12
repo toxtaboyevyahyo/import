@@ -1,0 +1,33 @@
+.header{
+    @include container;
+    @include d-flex;
+    padding-top: 40px;
+    &_list{
+        @include d-flex;
+       
+    }
+    &_item{
+        margin-left: 38px;
+    }
+    &_link{
+        color: #3F3F3F;
+        font-size: 15px;
+        font-style: normal;
+        line-height: normal;
+        padding: 10px 10px;
+        transition: all 0.3s ease-in;
+    }
+    &_link:hover{
+        color: black;
+    }
+    &_btn{
+        color: #3F3F3F;
+        font-size: 16px;
+        font-style: normal;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 10px;
+        border: 1px solid #8E8E8E;
+        line-height: normal;
+    }
+}
